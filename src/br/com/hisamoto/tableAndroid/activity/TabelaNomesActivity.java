@@ -48,7 +48,7 @@ public class TabelaNomesActivity extends Activity {
                 tr1.setBackgroundColor(Color.BLUE);
             }
 
-            tabela.addView(tr1, new TableLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+            tabela.addView(tr1, new TableLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         }
     }
 }
